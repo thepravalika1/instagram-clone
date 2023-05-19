@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    font-family: 'Roboto';
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    
+}
+.header .left i{
+    margin-top: 0.3rem;
+}
+.left{
+    display: flex;
+}
+i{
+    margin: 0 0.8rem;
+}
+.info{
+    display: flex;
+    padding: 0.8rem;
+}
+.info img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.profilestats{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.stats{
+    text-align: center;
+    margin: 1rem 0.4rem;
+    justify-items: center;
+}
+.stats span{
+    font-weight: 500;
+}
+.bio{
+    padding: 0.8rem;
+}
+.bio span{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: darkgray;
+}
+.bio p{
+    font-size: 0.9rem;
+}
+.bio a{
+    font-size: 0.7rem;
+}
+.highlights{
+    display: flex;
+    justify-content: space-evenly;
+}
+.story{
+    text-align: center;
+}
+.story img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.posts{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.2rem;
+}
+.posts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
